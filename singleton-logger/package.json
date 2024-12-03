@@ -1,0 +1,28 @@
+{
+  "name": "singleton-logger",
+  "version": "1.0.0",
+  "description": "build a logger system using the singleton design pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --detectOpenHandles",
+    "start": "node build/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "file-system": "^2.2.2",
+    "fs": "^0.0.1-security",
+    "node-fs": "^0.1.7",
+    "path": "^0.12.7",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2"
+  }
+}
