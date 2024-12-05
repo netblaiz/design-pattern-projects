@@ -1,0 +1,29 @@
+{
+  "name": "shape-factory",
+  "version": "1.0.0",
+  "description": "this code explains how a factory pattern works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "factory",
+    "pattern",
+    "factory-pattern",
+    "software-design-principles"
+  ],
+  "author": "atilola.oyediji",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2"
+  }
+}
